@@ -1,0 +1,13 @@
+name: crystal-libtls-example
+version: 0.1.0
+
+authors:
+  - Hexa <hexa.diary@gmail.com>
+
+dependencies:
+  libtls:
+    github: Hexa/libtls.cr
+
+crystal: 0.26.1
+
+license: MIT
