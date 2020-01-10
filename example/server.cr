@@ -5,7 +5,7 @@ require "socket"
 address = "127.0.0.1"
 port = 443
 
-OptionParser.parse! do |parser|
+OptionParser.parse do |parser|
   parser.banner = "Usage: ./server [arguments]"
   parser.on("-a ADDRESS", "--address ADDRESS", "") { |name| address = name }
   parser.on("-p PORT", "--port PORT", "") { |name| port = name.to_i }
